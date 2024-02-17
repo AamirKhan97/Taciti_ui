@@ -8,7 +8,7 @@ export default function Header() {
       <div className="headermain">
         <div className="brandLogo">
           <Link href="#Home">
-            <Image src="./images/BrandImg.svg" height="50" width="170" alt='' />
+            <Image src="./images/tactiti.svg" height="50" width="170" alt='' />
           </Link>
         </div>
         <div className="LinkBox">

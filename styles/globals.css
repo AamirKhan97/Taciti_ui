@@ -19,6 +19,7 @@ body {
     align-items: center;
     position: sticky;
     top: 0px;
+    border-bottom: .5px solid rgba(13, 107, 176, 1);
     z-index: 10;
 }
 
@@ -35,6 +36,55 @@ body {
     &:last-child {
         margin-right: 0px;
     }
+}
+
+/* Footer styles */
+.footerBg {
+    background: url('../public/images/footerbg.svg') no-repeat scroll;
+    height: 80vh;
+    background-size: cover;
+    background-position: top;
+}
+
+.footerBg .innerCard {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 230px 200px;
+}
+
+.footerBg .servicesBox {
+    margin-top: 200px;
+    width: 300px;
+}
+
+.footerBg .box {
+    margin-top: 200px;
+    width: 300px;
+}
+
+.footerBg .box h1 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.footerBg .box h2 {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.footerBg .servicesBox .serTxt {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 22px;
+}
+
+.footerBg .servicesBox p {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 22px;
 }
 
 /* Body Styles*/
@@ -306,4 +356,66 @@ body {
     color: #fff;
     font-size: 20px;
     font-weight: 200;
+}
+
+.bookBox {
+    height: calc(100vh - 400px);
+    /* margin-bottom: 200px; */
+}
+
+.bookBox .reconBox {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bookBox .reconBox .headingReconTxt {
+    color: rgba(15, 126, 237, 1);
+    font-size: 32px;
+}
+
+.bookBox .reconBox .recogPara {
+    color: rgba(1, 52, 112, 1);
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.bookBox .reconBox .liteTxt {
+    color: rgba(112, 112, 112, 1);
+    font-size: 18px;
+}
+
+.bookBox .TecBox h1 {
+    margin-bottom: 20px;
+    color: rgba(15, 126, 237, 1);
+    font-size: 42px;
+}
+
+.bookBox .TecBox h1 span {
+    color: rgba(1, 52, 112, 1) !important;
+}
+
+.TecBox .belowBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TecBox .belowBox .textBox {
+    margin-right: 40px;
+}
+
+.TecBox .belowBox .textBox h1 {
+    color: #505D66;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.TecBox .belowBox .textBox h2 {
+    color: #505D66;
+    font-size: 18px;
 }

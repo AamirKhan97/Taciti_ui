@@ -299,6 +299,41 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="bookBox">
+          <div className="row">
+            <div className="col-md-6 text-center mb-3">
+              <Image src="../images/book.svg" height="700" width="550" alt="" className="book" />
+            </div>
+            <div className="col-md-6 mb-3">
+              <div className="reconBox">
+                <h1 className="headingReconTxt">Recognition</h1>
+                <p className="recogPara">Lam Research acknowlodges <br/>
+                  our expertise and significant <br/> 
+                  contribution to their digital <br/>
+                  transformation journey
+                </p>
+                <p className="liteTxt">With recenter branding excersice, we have changes our <br/>
+                  Company name from DPcon Solution Tactiti Consulting.
+                </p>
+              </div>
+            </div>
+            <div className="col-md-12 text-center">
+              <div className="TecBox">
+                <h1><span>Our</span> Technology Partner</h1>
+                <div className="belowBox">
+                    <div className="textBox">
+                      <h1>SAP</h1>
+                      <h2>Silver partner</h2>
+                    </div>
+                    <div className="textBox">
+                      <h1>Corner Stone</h1>
+                      <h2>Teaming Agrement</h2>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
