@@ -8,6 +8,13 @@
 
 body {
   overflow-x: hidden;
+  p {
+    font-family: "Roboto Flex", sans-serif;
+  }
+  h1 , h2{
+    font-family: "Public Sans", sans-serif;
+    font-weight: 600;
+  }
 }
 
 /* Header Styles */
@@ -173,7 +180,7 @@ body {
 }
 
 .mainLineImg .AboutUsBox {
-  margin-top: 300px;
+  margin-top: 200px;
   text-align: center;
 }
 
@@ -320,7 +327,7 @@ body {
 
 .xaxisSlide .incremanetalHeadTxt {
   color: rgba(1, 52, 112, 1);
-  margin: 200px 0px 50px 0px;
+  margin: 100px 0px 50px 0px;
 }
 
 .xaxisSlide .borderROundedRec {
