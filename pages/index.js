@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 
 export default function Home() {
@@ -19,7 +19,7 @@ export default function Home() {
               Optimisation and Technology Implementation.
             </p>
           </div>
-          <div className="rightSlider"></div>
+          {/* <div className="rightSlider"></div>
           <Image
             src="./images/butterfly.svg"
             height="299"
@@ -47,7 +47,7 @@ export default function Home() {
             width="152"
             alt=""
             className="butStone3"
-          />
+          /> */}
         </div>
       </div>
       {/* Screens */}
@@ -198,7 +198,8 @@ export default function Home() {
                       <h1 className="caseheadTxt">ERP Transformation</h1>
                       <p className="casePara">
                         A large scale SAP S/ 4 HANA led <br />
-                        digital transformation for a US<br />
+                        digital transformation for a US
+                        <br />
                         based manufacturer.
                       </p>
                       <h2 className="caseStudy">
@@ -234,7 +235,8 @@ export default function Home() {
                       <p className="casePara">
                         Empowering services with <br />
                         No-code/Low-Code (MS power <br />
-                        platform) for a manufacturing<br />
+                        platform) for a manufacturing
+                        <br />
                         leaser.
                       </p>
                       <h2 className="caseStudy">
@@ -265,31 +267,54 @@ export default function Home() {
         <div id="Increamental">
           <div className="xaxisSlide">
             <div className="contentBox">
-              <h1 className="incremanetalHeadTxt">We are passionate about accelerated <br /> & increamental improvements.</h1>
+              <h1 className="incremanetalHeadTxt">
+                We are passionate about accelerated <br /> & increamental
+                improvements.
+              </h1>
               <div className="borderROundedRec">
                 <div className="innerBox">
-                  <Image src='../images/client.svg' height="70" width="70" alt="" />
+                  <Image
+                    src="../images/client.svg"
+                    height="70"
+                    width="70"
+                    alt=""
+                  />
                   <div className="contentCard">
                     <h1 className="num">11</h1>
                     <h1 className="text">Clients</h1>
                   </div>
                 </div>
                 <div className="innerBox">
-                  <Image src='../images/completed.svg' height="70" width="70" alt="" />
+                  <Image
+                    src="../images/completed.svg"
+                    height="70"
+                    width="70"
+                    alt=""
+                  />
                   <div className="contentCard">
                     <h1 className="num">24</h1>
                     <h1 className="text">Completed Projects</h1>
                   </div>
                 </div>
                 <div className="innerBox">
-                  <Image src='../images/ongoing.svg' height="70" width="70" alt="" />
+                  <Image
+                    src="../images/ongoing.svg"
+                    height="70"
+                    width="70"
+                    alt=""
+                  />
                   <div className="contentCard">
                     <h1 className="num">36</h1>
                     <h1 className="text">Ongoing Projects</h1>
                   </div>
                 </div>
                 <div className="innerBox">
-                  <Image src='../images/expert.svg' height="70" width="70" alt="" />
+                  <Image
+                    src="../images/expert.svg"
+                    height="70"
+                    width="70"
+                    alt=""
+                  />
                   <div className="contentCard">
                     <h1 className="num">160</h1>
                     <h1 className="text">Experts at work</h1>
@@ -302,33 +327,43 @@ export default function Home() {
         <div className="bookBox">
           <div className="row">
             <div className="col-md-6 text-center mb-3">
-              <Image src="../images/book.svg" height="700" width="550" alt="" className="book" />
+              <Image
+                src="../images/book.svg"
+                height="700"
+                width="550"
+                alt=""
+                className="book"
+              />
             </div>
             <div className="col-md-6 mb-3">
               <div className="reconBox">
                 <h1 className="headingReconTxt">Recognition</h1>
-                <p className="recogPara">Lam Research acknowlodges <br/>
-                  our expertise and significant <br/> 
-                  contribution to their digital <br/>
+                <p className="recogPara">
+                  Lam Research acknowlodges <br />
+                  our expertise and significant <br />
+                  contribution to their digital <br />
                   transformation journey
                 </p>
-                <p className="liteTxt">With recenter branding excersice, we have changes our <br/>
+                <p className="liteTxt">
+                  With recenter branding excersice, we have changes our <br />
                   Company name from DPcon Solution Tactiti Consulting.
                 </p>
               </div>
             </div>
             <div className="col-md-12 text-center">
               <div className="TecBox">
-                <h1><span>Our</span> Technology Partner</h1>
+                <h1>
+                  <span>Our</span> Technology Partner
+                </h1>
                 <div className="belowBox">
-                    <div className="textBox">
-                      <h1>SAP</h1>
-                      <h2>Silver partner</h2>
-                    </div>
-                    <div className="textBox">
-                      <h1>Corner Stone</h1>
-                      <h2>Teaming Agrement</h2>
-                    </div>
+                  <div className="textBox">
+                    <h1>SAP</h1>
+                    <h2>Silver partner</h2>
+                  </div>
+                  <div className="textBox">
+                    <h1>Corner Stone</h1>
+                    <h2>Teaming Agrement</h2>
+                  </div>
                 </div>
               </div>
             </div>
