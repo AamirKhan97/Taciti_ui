@@ -11,43 +11,14 @@ export default function Home() {
               Empowering <br /> Digital <br /> Transformation
             </h1>
             <p>
-              Our expertise lies in providing end to enddigital <br />
-              transformation services for business. Our unbaised <br />
+              Our expertise lies in providing end to end digital <br />
+              transformation services for businesses. Our unbiased <br />
               advisory approach helps our clients achieve growth <br />
               and success in their industries. Our services include <br />
-              Stratergy & Advisory , Process Reengineering & <br />
-              Optimisation and Technology Implementation.
+              Strategy & Advisory , Process Reengineering & Optimization <br />
+              and Technology Implementation.
             </p>
           </div>
-          {/* <div className="rightSlider"></div>
-          <Image
-            src="./images/butterfly.svg"
-            height="299"
-            width="366"
-            alt=""
-            className="butterfly"
-          />
-          <Image
-            src="./images/butStone1.svg"
-            height="208"
-            width="239"
-            alt=""
-            className="butStone1"
-          />
-          <Image
-            src="./images/butStone2.svg"
-            height="178"
-            width="329"
-            alt=""
-            className="butStone2"
-          />
-          <Image
-            src="./images/butStone3.svg"
-            height="162"
-            width="152"
-            alt=""
-            className="butStone3"
-          /> */}
         </div>
       </div>
       {/* Screens */}

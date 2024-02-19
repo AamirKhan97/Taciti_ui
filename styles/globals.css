@@ -8,19 +8,13 @@
 
 body {
   overflow-x: hidden;
-  p {
-    font-family: "Roboto Flex", sans-serif;
-  }
-  h1,
-  h2 {
-    font-family: "Public Sans", sans-serif;
-    font-weight: 600;
-  }
+  /* font-family: "Roboto Flex", sans-serif;
+  font-family: "Public Sans", sans-serif; */
 }
 
 /* Header Styles */
 .headermain {
-  padding: 30px 120px;
+  padding: 10px 120px;
   background-color: #fff;
   display: flex;
   justify-content: space-between;
@@ -40,7 +34,7 @@ body {
   color: rgba(13, 107, 176, 1);
   font-size: 22px;
   margin-right: 40px;
-
+  font-family: "Roboto Flex", sans-serif;
   &:last-child {
     margin-right: 0px;
   }
@@ -97,20 +91,13 @@ body {
 
 /* Body Styles*/
 .landingBox {
-  /* background: url('../public/images/landingPg.svg') no-repeat scroll;
-    width: 100vw;
-    background-position: right;
-    height: 100vh;
-    background-size: contain;
-    margin-bottom: 100px; */
   background: url("../public/images/backgroundLayer.svg") no-repeat scroll;
   background-size: cover;
-  background-position: bottom;
+  background-position: bottom right;
   width: 100vw;
-  height: 100vh;
-  /* margin: 0;
-  padding: 0; */
-  /* margin-bottom: 130px; */
+  height: 130vh;
+  margin: 0;
+  padding: 0;
 }
 
 #Home .landingBox .rightSlider {
@@ -122,18 +109,21 @@ body {
 
 .landingBox .textBox {
   position: absolute;
-  margin: 50px;
+  margin: 130px 130px;
 }
 
 .landingBox .textBox h1 {
   color: #fff;
   font-size: 50px;
   margin-bottom: 20px;
+  font-family: "Public Sans", sans-serif;
+  font-weight: 600;
 }
 
 .landingBox .textBox p {
   color: #fff;
   font-size: 21px;
+  font-family: "Roboto Flex", sans-serif;
 }
 
 .landingBox .butterfly {
@@ -189,6 +179,8 @@ body {
   font-size: 32px;
   line-height: 35px;
   color: rgba(15, 126, 237, 1);
+  font-weight: 600;
+  font-family: "Public Sans", sans-serif;
   /* margin-top: 300px; */
 }
 
@@ -199,11 +191,13 @@ body {
   font-weight: 700;
   word-spacing: 10px;
   margin-bottom: 20px;
+  font-family: "Public Sans", sans-serif;
 }
 
 .mainLineImg .AboutUsBox .para {
   font-size: 20px;
   margin-bottom: 20px;
+  font-family: "Roboto Flex", sans-serif;
 }
 
 .mainLineImg .AboutUsBox .ContactBtn {
@@ -212,6 +206,7 @@ body {
   width: 180px;
   color: #fff;
   background-color: rgba(1, 52, 112, 1);
+  font-family: "Roboto Flex", sans-serif;
 }
 
 /* Industries styles */
@@ -234,7 +229,7 @@ body {
   width: 340px;
   margin-right: 50px;
   margin-bottom: 70px;
-
+  height: 400px;
   &:last-child {
     margin-right: 0px;
   }
@@ -249,12 +244,14 @@ body {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
+  font-family: "Public Sans", sans-serif;
 }
 
 .cardIn .parain {
   color: rgba(78, 87, 100, 1);
   font-size: 20px;
   text-align: center;
+  font-family: "Roboto Flex", sans-serif;
 }
 
 #Industries .cardInCase {
@@ -265,7 +262,9 @@ body {
   margin-bottom: 80px;
   margin-right: 30px;
 }
-
+#Industries .cardInCase:last-child {
+  margin-right: 0px;
+}
 .cardInCase:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   transition: all 0.5s ease;
@@ -285,6 +284,7 @@ body {
   padding: 20px;
   background-color: #fff;
   border: 0.5px solid rgb(231, 222, 222);
+  height: 250px;
 }
 
 .cardInCase .cardbody .caseheadTxt {
@@ -292,6 +292,8 @@ body {
   font-size: 18px;
   margin-bottom: 10px;
   text-align: start;
+  font-weight: 600;
+  font-family: "Public Sans", sans-serif;
 }
 
 .cardInCase .cardbody .casePara {
@@ -299,6 +301,7 @@ body {
   font-size: 16px;
   text-align: start;
   margin-bottom: 20px;
+  font-family: "Roboto Flex", sans-serif;
 }
 
 .cardInCase .cardbody .caseStudy {
@@ -329,6 +332,8 @@ body {
 .xaxisSlide .incremanetalHeadTxt {
   color: rgba(1, 52, 112, 1);
   margin: 100px 0px 50px 0px;
+  font-weight: 600;
+  font-family: "Public Sans", sans-serif;
 }
 
 .xaxisSlide .borderROundedRec {
@@ -381,7 +386,9 @@ body {
 
 .bookBox .reconBox .headingReconTxt {
   color: rgba(15, 126, 237, 1);
-  font-size: 32px;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: "Public Sans", sans-serif;
 }
 
 .bookBox .reconBox .recogPara {
@@ -389,17 +396,21 @@ body {
   font-weight: 600;
   font-size: 40px;
   margin-bottom: 30px;
+  font-family: "Roboto Flex", sans-serif;
 }
 
 .bookBox .reconBox .liteTxt {
   color: rgba(112, 112, 112, 1);
   font-size: 18px;
+  font-family: "Roboto Flex", sans-serif;
 }
 
 .bookBox .TecBox h1 {
   margin-bottom: 20px;
   color: rgba(15, 126, 237, 1);
   font-size: 42px;
+  font-weight: 600;
+  font-family: "Public Sans", sans-serif;
 }
 
 .bookBox .TecBox h1 span {
@@ -419,6 +430,7 @@ body {
 .TecBox .belowBox .textBox h1 {
   color: #505d66;
   font-size: 22px;
+  font-family: "Roboto Flex", sans-serif;
   margin-bottom: 10px;
 }
 
